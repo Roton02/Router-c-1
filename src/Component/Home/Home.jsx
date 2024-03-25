@@ -3,12 +3,12 @@ import Footer from "../Navbar/Footer";
 import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
-    return (
+    return ( 
         <div>
-            <div className="h-16">
+            <div className="h-[64px]">
             <Navbar></Navbar>
             </div>
-            <div className="px-10 min-h-[calc(100vh -116px)]">
+            <div className=" min-h-[calc(100vh-124px)]">
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>
